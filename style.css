@@ -9,7 +9,7 @@ body {
   flex-direction: column; /* Alinha os itens na vertical */
   align-items: center; /* Centraliza os itens horizontalmente */
   justify-content: center; /* Centraliza os itens verticalmente */
-  height: 100vh; /* Preenche a altura total da viewport */
+  height: 100vh;
   margin: 0; /* Remove a margem padrão */
   padding: 0; /* Remove o padding padrão */
 }
@@ -20,6 +20,7 @@ h1 {
   color: #222831; /* Cor do texto */
   text-align: center; /* Alinha o texto ao centro */
   letter-spacing: 0.4rem; /* Espaçamento entre letras */
+  line-height: 0.2;
 }
 
 /* Estiliza as seções da página */
@@ -27,14 +28,14 @@ section {
   display: flex; /* Usa Flexbox para layout */
   flex-direction: column; /* Alinha os itens na vertical */
   align-items: center; /* Centraliza os itens horizontalmente */
-  margin-bottom: 3rem; /* Espaçamento abaixo de cada seção */
+  margin-bottom: 0.1rem; /* 3rem Espaçamento abaixo de cada seção */
 }
 
 /* Estiliza os inputs dentro das seções */
 section input {
   width: 30rem; /* Largura dos inputs */
   border: none; /* Remove a borda padrão */
-  padding: 1rem; /* Espaçamento interno */
+  padding: 0.59rem;
   border-radius: 1.5rem; /* Borda arredondada */
   margin-bottom: 0.5rem;
   color: #45474b; /* Cor do texto */
@@ -64,10 +65,10 @@ section button:hover {
   width: 60rem;
   /* width: 60rem; Largura máxima da caixa de resultados */
   /* height: 26vh; Altura máxima da caixa de resultados */
-  height: 46vh;
+  height: 59vh; /* 46vh */
   overflow-y: auto; /* Adiciona rolagem vertical se necessário */
-  margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
-  padding: 1rem; /* Espaçamento interno */
+  margin-top: 0.2rem; /* 1rem Espaçamento acima da caixa de resultados */
+  padding: 0.2rem; /* 1rem Espaçamento interno */
   border-radius: 0.6rem; /* Borda arredondada */
 }
 
@@ -184,8 +185,12 @@ footer {
   /* display: flex; Faz os elementos ficarem na mesma linha */
   /* align-items: center; Alinha verticalmente ao centro */
   /* justify-content: space-between; Distribui o espaço entre o logo e o título */
-  margin-top: 20px; /* Remove a margem padrão */
+  /* margin-top: 100px; */
 }
+
+/* *********************************************************************************** */
+/* *********************************************************************************** */
+/* *********************************************************************************** */
 
 @media (max-width: 768px) {
   h1 {
@@ -211,7 +216,7 @@ footer {
 /* Responsividade para celulares */
 @media (max-width: 480px) {
   h1 {
-    font-size: 1.1rem; /* Tamanho da fonte em telas pequenas */
+    font-size: 1rem; /* Tamanho da fonte em telas pequenas */
   }
 
   section input {
@@ -219,18 +224,18 @@ footer {
   }
 
   section button {
-    padding: 0.6rem 1rem; /* Espaçamento interno do botão em telas pequenas */
+    padding: 0.6rem 1rem; /*  0.6rem 1rem Espaçamento interno do botão em telas pequenas */
     font-size: 0.9rem; /* Tamanho da fonte do botão em telas pequenas */
   }
 
   .headerTitulo {
-    margin-top: 25px;
-    margin-left: 10px;
+    /* margin-top: 30px; */
+    margin-left: 5px;
   }
 
   .resultados-pesquisa {
     width: 90%; /* 90% Largura da caixa de resultados em telas pequenas */
-    height: 50vh; /* 50vh Altura da caixa de resultados em telas pequenas */
+    height: 70vh; /* 50vh Altura da caixa de resultados em telas pequenas */
   }
 
   .item-resultado h2 {
@@ -239,7 +244,16 @@ footer {
 
   /* Estiliza cada item de resultado */
   .item-resultado {
-    width: 22rem; /* Marcell */
+    background: #ffffff; /* Cor de fundo dos itens */
+    border-radius: 0.6rem; /* Borda arredondada */
+    padding: 0.5rem; /* Espaçamento interno */
+    /* margin-bottom: 0.5rem;  */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+
+    /* 22 Marcell */
+    width: 23rem;
+    /* margin: 0.5rem auto; */
+    margin-left: 3rem;
     line-height: 0.2;
   }
 
