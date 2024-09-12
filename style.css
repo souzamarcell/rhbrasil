@@ -269,6 +269,14 @@ footer {
     line-height: 0.1;
   }
 
+  .logo-image {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%; /* Torna a imagem redonda */
+    object-fit: cover; /* Garante que a imagem se ajuste ao círculo corretamente */
+  }
+
+
   footer {
     font-size: 0.8rem; /* Tamanho da fonte do rodapé em telas pequenas */
   }

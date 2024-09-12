@@ -2816,6 +2816,57 @@ let agencias = [
     celular: "(61) 95555-8899",
     fixo: "(61) 3333-8899",
   },
-  // *** Manaus / Amazonas
+  // Santa Catarina
+  // --------------------------------------------------------------
+  {
+    cidade: "Florianópolis",
+    estado: "Santa Catarina",
+    agenciaHR: "Link Talentos",
+    site: "https://linktalentos.com.br/",
+    email: "contato@linktalentos.com.br",
+    endereco: "Rua Presidente Coutinho, 307, sala 301, Centro.",
+    celular: "(48) 98845-8745",
+    fixo: "(48) 3034-4141",
+  },
+  {
+    cidade: "Joinville",
+    estado: "Santa Catarina",
+    agenciaHR: "RHF Talentos",
+    site: "https://rhf.com.br/",
+    email: "joinville@rhf.com.br",
+    endereco: "Rua Max Colin, 1329, América.",
+    celular: "(47) 98870-4040",
+    fixo: "(47) 3433-0991",
+  },
+  {
+    cidade: "Blumenau",
+    estado: "Santa Catarina",
+    agenciaHR: "Selecta RH",
+    site: "https://selectarh.com.br/",
+    email: "contato@selectarh.com.br",
+    endereco: "Rua 7 de Setembro, 1631, Centro.",
+    celular: "(47) 98828-0454",
+    fixo: "(47) 3035-0047",
+  },
+  {
+    cidade: "Criciúma",
+    estado: "Santa Catarina",
+    agenciaHR: "Excelência RH",
+    site: "https://excelenciarh.com.br/",
+    email: "contato@excelenciarh.com.br",
+    endereco: "Rua João Pessoa, 14, Centro.",
+    celular: "(48) 99175-0304",
+    fixo: "(48) 3437-9074",
+  },
+  {
+    cidade: "Itajaí",
+    estado: "Santa Catarina",
+    agenciaHR: "Teclógica RH",
+    site: "https://teclogica.com.br/",
+    email: "contato@teclogica.com.br",
+    endereco: "Rua Heitor Liberato, 205, Dom Bosco.",
+    celular: "(47) 98873-5742",
+    fixo: "(47) 3349-0500",
+  }
 ];
 
