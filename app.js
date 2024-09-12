@@ -55,22 +55,22 @@ function pesquisar() {
       resultados += `
       <div class="item-resultado">
           <h2>
-              <a href=${dado.site} target="_blank">${dado.agenciaHR} - ${dado.cidade}</a>
+              <a href=${dado.site} target="_blank">${dado.agenciaHR} ${dado.cidade}/${dado.estado}</a>
           </h2>
 
-          <p class="estado-meta">${dado.endereco} - ${dado.cidade}/${dado.estado}</p>
+          <p class="estado-meta">${dado.endereco} - Fixo: ${dado.fixo}</p>
 
-          <p class="estado-meta">
+          <p class="estado-meta2">
            <a class="item-email" href=${emailLink} target="_blank">
                 ${dado.email}
             </a>
-             / FIXO: ${dado.fixo} /
             <a class="item-whatsapp" href=${whatsappLink} target="_blank">
-                WhatsApp
+                  WhatsApp
             </a>
           </p>
 
           <a href=${dado.site} target="_blank">Mais informações</a>
+
       </div>
   `;
     }

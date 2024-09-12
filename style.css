@@ -80,14 +80,14 @@ section button:hover {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
 
   width: 50rem; /* Marcell */
-  line-height: .3; /* Altura da linha para reduzir o espaçamento */
-
+  line-height: 0.3
 }
 
 /* Estiliza os títulos dentro dos itens de resultado */
 .item-resultado h2 {
   font-size: 1.5rem; /* Tamanho da fonte */
   color: #222831; /* Cor do texto */
+  line-height: 0.2;
 }
 
 /* Estiliza os links dentro dos itens de resultado */
@@ -118,7 +118,8 @@ footer {
   bottom: 0; /* Alinha ao fundo da página */
   font-size: 1rem; /* Tamanho da fonte */
 
-  line-height: .3; /* Altura da linha para reduzir o espaçamento */
+  line-height: 0.3; /* Altura da linha para reduzir o espaçamento */
+
 }
 
 /* Estiliza WHATSAPP */
@@ -127,17 +128,19 @@ footer {
   padding: 1px 23px;
   border: 2px solid #25d366; /* Cor da borda igual ao ícone do WhatsApp */
   color: #25d366; /* Cor do texto */
-  /* text-transform: uppercase; Texto em maiúsculas */
   text-decoration: none; /* Remove o sublinhado */
   border-radius: 15px; /* Borda arredondada */
-  /* font-weight: bold; Deixa o texto em negrito */
   background-color: white; /* Fundo branco para destacar a borda */
   font-family: Arial, sans-serif; /* Fonte */
   transition: background-color 0.3s, color 0.3s; /* Transição suave para hover */
+
+  line-height: 0.7;
+  text-decoration: none;
 }
 .item-whatsapp:hover {
   background-color: #25d366; /* Fundo verde ao passar o mouse */
   color: white; /* Cor do texto muda para branco ao passar o mouse */
+  text-decoration: none;
 }
 
 /* Estiliza Email */
@@ -149,14 +152,15 @@ footer {
   /* text-transform: uppercase; Texto em maiúsculas */
   text-decoration: none; /* Remove o sublinhado */
   border-radius: 15px; /* Borda arredondada */
-  /* font-weight: bold; Texto em negrito */
   background-color: white; /* Fundo branco para destacar a borda */
   font-family: Arial, sans-serif; /* Fonte */
   transition: background-color 0.3s, color 0.3s; /* Transição suave para hover */
+  text-decoration: none;
 }
 .item-email:hover {
   background-color: #007bff; /* Fundo azul ao passar o mouse */
   color: white; /* Cor do texto muda para branco ao passar o mouse */
+  text-decoration: none;
 }
 
 .logo-image {
@@ -220,16 +224,33 @@ footer {
     font-size: 0.9rem; /* Tamanho da fonte do botão em telas pequenas */
   }
 
+  .headerTitulo {
+    margin-top: 25px;
+    margin-left: 10px;
+  }
+
   .resultados-pesquisa {
-    width: 90%; /* Largura da caixa de resultados em telas pequenas */
-    height: 50vh; /* Altura da caixa de resultados em telas pequenas */
+    width: 90%; /* 90% Largura da caixa de resultados em telas pequenas */
+    height: 50vh; /* 50vh Altura da caixa de resultados em telas pequenas */
   }
 
   .item-resultado h2 {
-    font-size: 1.1rem; /* Tamanho da fonte dos títulos em telas pequenas */
+    font-size: 0.8rem; /* Tamanho da fonte dos títulos em telas pequenas */
+  }
+
+  /* Estiliza cada item de resultado */
+  .item-resultado {
+    width: 22rem; /* Marcell */
+    line-height: 0.2;
+  }
+
+  .estado-meta{
+    /* background-color: #0077b5; */
+    font-size: 0.7rem; /* Tamanho da fonte em telas pequenas */
+    line-height: 0.2; /* Altura da linha para reduzir o espaçamento */
   }
 
   footer {
-    font-size: 0.9rem; /* Tamanho da fonte do rodapé em telas pequenas */
+    font-size: 0.8rem; /* Tamanho da fonte do rodapé em telas pequenas */
   }
 }
