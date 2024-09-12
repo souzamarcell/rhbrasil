@@ -36,7 +36,7 @@ section input {
   border: none; /* Remove a borda padrão */
   padding: 1rem; /* Espaçamento interno */
   border-radius: 1.5rem; /* Borda arredondada */
-  margin-bottom: 1rem; /* Espaçamento abaixo dos inputs */
+  margin-bottom: 0.5rem;
   color: #45474b; /* Cor do texto */
   font-size: 1rem; /* Tamanho da fonte */
   box-sizing: border-box; /* Inclui padding e border na largura total */
@@ -61,8 +61,10 @@ section button:hover {
 
 /* Estiliza a caixa de resultados da pesquisa */
 .resultados-pesquisa {
-  width: 60rem; /* Largura máxima da caixa de resultados */
-  height: 46vh; /* Altura máxima da caixa de resultados */
+  width: 60rem;
+  /* width: 60rem; Largura máxima da caixa de resultados */
+  /* height: 26vh; Altura máxima da caixa de resultados */
+  height: 46vh;
   overflow-y: auto; /* Adiciona rolagem vertical se necessário */
   margin-top: 1rem; /* Espaçamento acima da caixa de resultados */
   padding: 1rem; /* Espaçamento interno */
@@ -73,9 +75,13 @@ section button:hover {
 .item-resultado {
   background: #ffffff; /* Cor de fundo dos itens */
   border-radius: 0.6rem; /* Borda arredondada */
-  padding: 1rem; /* Espaçamento interno */
-  margin-bottom: 1rem; /* Espaçamento abaixo dos itens */
+  padding: 0.5rem; /* Espaçamento interno */
+  margin-bottom: 0.5rem; /* Espaçamento abaixo dos itens */
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra leve */
+
+  width: 50rem; /* Marcell */
+  line-height: .3; /* Altura da linha para reduzir o espaçamento */
+
 }
 
 /* Estiliza os títulos dentro dos itens de resultado */
@@ -111,6 +117,71 @@ footer {
   position: absolute; /* Posiciona o rodapé */
   bottom: 0; /* Alinha ao fundo da página */
   font-size: 1rem; /* Tamanho da fonte */
+
+  line-height: .3; /* Altura da linha para reduzir o espaçamento */
+}
+
+/* Estiliza WHATSAPP */
+.item-whatsapp {
+  display: inline-block;
+  padding: 5px 23px;
+  border: 2px solid #25d366; /* Cor da borda igual ao ícone do WhatsApp */
+  color: #25d366; /* Cor do texto */
+  /* text-transform: uppercase; Texto em maiúsculas */
+  text-decoration: none; /* Remove o sublinhado */
+  border-radius: 15px; /* Borda arredondada */
+  /* font-weight: bold; Deixa o texto em negrito */
+  background-color: white; /* Fundo branco para destacar a borda */
+  font-family: Arial, sans-serif; /* Fonte */
+  transition: background-color 0.3s, color 0.3s; /* Transição suave para hover */
+}
+.item-whatsapp:hover {
+  background-color: #25d366; /* Fundo verde ao passar o mouse */
+  color: white; /* Cor do texto muda para branco ao passar o mouse */
+}
+
+/* Estiliza Email */
+.item-email {
+  display: inline-block;
+  padding: 5px 23px;
+  border: 2px solid #007bff; /* Cor da borda azul padrão de e-mail */
+  color: #007bff; /* Cor do texto azul */
+  /* text-transform: uppercase; Texto em maiúsculas */
+  text-decoration: none; /* Remove o sublinhado */
+  border-radius: 15px; /* Borda arredondada */
+  /* font-weight: bold; Texto em negrito */
+  background-color: white; /* Fundo branco para destacar a borda */
+  font-family: Arial, sans-serif; /* Fonte */
+  transition: background-color 0.3s, color 0.3s; /* Transição suave para hover */
+}
+.item-email:hover {
+  background-color: #007bff; /* Fundo azul ao passar o mouse */
+  color: white; /* Cor do texto muda para branco ao passar o mouse */
+}
+
+.logo-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Torna a imagem redonda */
+  object-fit: cover; /* Garante que a imagem se ajuste ao círculo corretamente */
+}
+
+.logo {
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.logo:hover {
+  background-color: #0077b5;
+  color: white;
+  border-radius: 50%; /* Isso faz com que o elemento fique redondo */
+}
+
+.headerTitulo {
+  /* display: flex; Faz os elementos ficarem na mesma linha */
+  /* align-items: center; Alinha verticalmente ao centro */
+  /* justify-content: space-between; Distribui o espaço entre o logo e o título */
+  margin-top: 20px; /* Remove a margem padrão */
 }
 
 @media (max-width: 768px) {
