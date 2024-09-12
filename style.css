@@ -124,7 +124,7 @@ footer {
 /* Estiliza WHATSAPP */
 .item-whatsapp {
   display: inline-block;
-  padding: 5px 23px;
+  padding: 1px 23px;
   border: 2px solid #25d366; /* Cor da borda igual ao ícone do WhatsApp */
   color: #25d366; /* Cor do texto */
   /* text-transform: uppercase; Texto em maiúsculas */
@@ -208,8 +208,7 @@ footer {
 /* Responsividade para celulares */
 @media (max-width: 480px) {
   h1 {
-    font-size: 1.8rem; /* Tamanho da fonte em telas pequenas */
-    letter-spacing: 0.1rem; /* Espaçamento entre letras em telas pequenas */
+    font-size: 1.1rem; /* Tamanho da fonte em telas pequenas */
   }
 
   section input {
