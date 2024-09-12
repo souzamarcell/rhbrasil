@@ -1,0 +1,60 @@
+- `Manaus, 02 September 2024` - Aula 01
+
+  - Acesso ao Gemini:
+    goo.gle/AluraGemini
+
+- `Manaus, 05 September 2024` - Aula 02 [00:12:47]
+
+  - Aula 03 [00:00:00]
+
+    - Crie uma lista de objetos sobre cartas de D&D com os seguintes atributos:
+      - nome da carta
+      - tipo (personagem, item, arma)
+      - ponto de força
+      - descrição
+
+      Crie 3 cartas de cada tipo em uma lista de objetos javascript
+
+- `Manaus, 10 September 2024` - Aula 04 [00:25:47]
+
+- `Manaus, 10 September 2024` - Aula 05 [00:47:1]
+
+ - https://github.com
+
+    To create github: olimpicosgemini
+
+    git init
+    git branch -m main
+
+    SSH
+    git remote add origin git@github.com:souzamarcell/olimpicosgemini.git
+    Verificar: git remote -v
+
+    git add .
+    git commit -m "party 1.0.0"
+    git push -u origin main
+    git push -u origin main --force
+
+    - 2 segundo projeto: Cadastro Nacional de RH do Brasil
+
+      To create github: rhbrasil
+
+      git init
+      git branch -m main
+
+      remove anterior: git remote remove origin
+
+      SSH
+      git remote add origin git@github.com:souzamarcell/rhbrasil.git
+      Verificar: git remote -v
+
+      git add .
+      git commit -m "party 1.0.0"
+      git push -u origin main
+      git push -u origin main --force
+
+ - https://vercel.com/marcellramosgmailcoms-projects
+
+    add new
+      import
+        Deploy
